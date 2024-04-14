@@ -11,6 +11,7 @@ db = client["csulbdining"]
 user_collection = db["user"]
 review_collection = db["review"]
 
+
 # Routes
 @app.route('/')
 def index():
